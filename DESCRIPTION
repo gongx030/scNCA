@@ -1,0 +1,25 @@
+Package: scNCA
+Type: Package
+Title: scNCA integrates multiple sources of temporal single cell RNA-seq data
+Version: 1.0.1
+Date: 2018-12-12
+Author: Wuming Gong <gongx030@umn.edu>
+Maintainer: Wuming Gong <gongx030@umn.edu>
+Description: Mammalian embryogenesis is a complex process that includes the coordination of a number of distinct processes in a context dependent and stage dependent fashion.  Single cell RNA-seq (scRNA-seq) over specified time periods have been widely used to dissect the cell populations at disctinct stages.  Integrating such scRNA-seq data from different developmental stages and from different laboratories is critical to comprehensively define and understand the molecular dynamics and systematically reconstruct the lineage trajectories during the entire developmental process.  Here, we describe a simple and powerful algorithm to integrate heterogenous temporal scRNA-seq and to preserve the global developmental trajectories.  We applied this approach to integrate 3,387 single cells from seven heterogenous temporal scRNA-seq datasets, and reconstructed the cell atlas of early mouse cardiovascular development from E6.5 to E9.5.  
+License: MIT License
+Imports: 
+	Matrix, 
+	MASS, 
+	SummarizedExperiment, 
+	irlba, 
+	matrixStats, 
+	fields, 
+	gplots, 
+	cluster, 
+	tensorflow, 
+	igraph,
+	S4Vectors
+Depends: R (>= 3.4.3)
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.1
